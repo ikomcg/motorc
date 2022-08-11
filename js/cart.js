@@ -74,7 +74,7 @@ document.getElementById('add-to-cart').addEventListener('click',function(){
 })
 function show_status(){
     const show_confirm = document.getElementById('confirm-cart')
-    show.style.display = 'block';
+    show_confirm.style.display = 'block';
 
     const myTimeout = setTimeout(showconfirm, 1500);
     function showconfirm() {
