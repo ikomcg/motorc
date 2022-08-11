@@ -226,7 +226,6 @@ div#exist-cart span{
 @media(max-width: 600px){
     section.product-view .item-view{
         width: 90%;
-        margin-block-end: auto;
     }
     
     .item-view .moto-item img{
