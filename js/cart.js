@@ -1,4 +1,4 @@
-increasdecreasequntity()
+increasdecreasequntity();
 //open cart
 document.getElementById("open-cart").addEventListener("click" ,function(){
     document.getElementById('cart-section').style.right = '0';
@@ -22,6 +22,8 @@ document.getElementById("close-cart").addEventListener("click" ,function(){
         document.getElementById("header").style.overflow ='visible'
      }
 })
+
+
 //add to cart
 const item= document.getElementsByClassName('moto-item');
 const itemname = item[0].getElementsByTagName('h3')[0];
@@ -33,6 +35,8 @@ const itemprice = document.getElementsByClassName('item-price');
 const pricecart = itemprice[0].getElementsByTagName('h5')[0];
 
 const itemquant = document.getElementById('quanti-item')
+
+
 
 document.getElementById('add-to-cart').addEventListener('click',function(){
  
@@ -72,29 +76,29 @@ document.getElementById('add-to-cart').addEventListener('click',function(){
          increasdecreasequntity(); 
       
 })
+
 function show_status(){
-    const show_confirm = document.getElementById('confirm-cart')
-    show_confirm.style.display = 'block';
+    const show = document.getElementById('confirm-cart')
+
+    show.style.display = 'block';
 
     const myTimeout = setTimeout(showconfirm, 1500);
     function showconfirm() {
-        show_confirm.style.display = 'none';
+        show.style.display = 'none';
     }
 
 }
 function exist_status(){
-    const show = document.getElementById('confirm-cart')
-    show.style.display = 'none';
-    
-    const show_exist = document.getElementById('exist-cart')
-    show_exist.style.display = 'block';
+    const show = document.getElementById('exist-cart')
+
+    show.style.display = 'block';
+
     const myTimeout = setTimeout(showconfirm, 1500);
     function showconfirm() {
-        show_exist.style.display = 'none';
+        show.style.display = 'none';
     }
 
 }
-
 function increasdecreasequntity(){
     //minus quantity
     const quanti_class = document.getElementsByClassName('item-quantity')
@@ -116,6 +120,7 @@ function increasdecreasequntity(){
            
         })
     }
+
 window.onload = function(){
     updatePrice()
 }
