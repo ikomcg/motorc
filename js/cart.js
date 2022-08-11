@@ -1,4 +1,4 @@
-
+increasdecreasequntity()
 //open cart
 document.getElementById("open-cart").addEventListener("click" ,function(){
     document.getElementById('cart-section').style.right = '0';
@@ -97,29 +97,25 @@ function exist_status(){
 
 function increasdecreasequntity(){
     //minus quantity
-    const quanti_class = document.getElementsByClassName('item-quantity');
-
-    for(let i = 0; i < quanti_class.length; i++){
+    const quanti_class = document.getElementsByClassName('item-quantity')
+    const last_class = quanti_class.length
       
-        quanti_class[i].getElementsByClassName('bi bi-dash')[0].addEventListener('click' ,minusQuantity)
+        quanti_class[last_class - 1].getElementsByClassName('bi bi-dash')[0].addEventListener('click' ,minusQuantity)
         
         function minusQuantity(){
-        var itemquantity = quanti_class[i].getElementsByClassName('cart-quanti')[0];
+        var itemquantity = quanti_class[last_class -1].getElementsByClassName('cart-quanti')[0];
             itemquantity.value --
             updatePrice();            
 
         }
-    }
     // add quantity
-    for(let i = 0; i < quanti_class.length; i++){
-        quanti_class[i].getElementsByClassName('bi bi-plus')[0].addEventListener('click' ,function(){
-        var itemquantity = quanti_class[i].getElementsByClassName('cart-quanti')[0];
+        quanti_class[last_class - 1].getElementsByClassName('bi bi-plus')[0].addEventListener('click' ,function(){
+        var itemquantity = quanti_class[last_class - 1].getElementsByClassName('cart-quanti')[0];
             itemquantity.value ++
             updatePrice();
            
         })
     }
-}
 window.onload = function(){
     updatePrice()
 }
