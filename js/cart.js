@@ -107,14 +107,25 @@ function increasdecreasequntity(){
         quanti_class[last_class - 1].getElementsByClassName('bi bi-dash')[0].addEventListener('click' ,minusQuantity)
         
         function minusQuantity(){
+            
         var itemquantity = quanti_class[last_class -1].getElementsByClassName('cart-quanti')[0];
+
+        if(itemquantity.value == 1){
+            return
+        }
             itemquantity.value --
-            updatePrice();            
+            updatePrice();          
+            
+            
 
         }
     // add quantity
         quanti_class[last_class - 1].getElementsByClassName('bi bi-plus')[0].addEventListener('click' ,function(){
         var itemquantity = quanti_class[last_class - 1].getElementsByClassName('cart-quanti')[0];
+        
+        if(itemquantity.value == 10){
+            return
+        }
             itemquantity.value ++
             updatePrice();
            
