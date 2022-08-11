@@ -1,0 +1,120 @@
+@media(max-width:800px){
+    header div.logo{
+        display: none;
+    }
+    header .right-nav .nav-search{
+        width: 100%;
+    }
+    header .right-nav{
+        width: 100%;
+    }
+}
+@media(max-width:790px){
+    footer section.contact .wrap div {
+        width: 50%;
+        text-align: center;
+    }
+    footer section.contact .wrap div .image-delivery {
+        justify-content: center;
+    }
+    footer section.contact .wrap h5{
+        font-size: 14px;
+    }
+    footer section.contact .wrap div{
+        margin: 0 auto;
+    }
+}
+@media(max-width:780px){
+    header{
+        position: relative;
+        padding: 10px !important;
+    }
+    header button.bi.bi-list{
+        display: block;
+        margin: 0 10px 0 0;
+    }
+    .nav-sec div ul {
+        margin: 5px 0 5px 20px;
+    }
+    section .left-bar#list-account {
+        display: block;
+        position: absolute;
+        height: 100vh;
+        width: 40%;
+        top: 0;
+        left: -500px;
+        border: 1.5px solid #ed092a;
+        transition: .2s ease-in-out;
+        
+       
+    }
+    section .left-bar .bi-caret-left-fill{
+        display: block;
+    }
+    section .right-div {
+        width: 100%;
+    }
+}
+@media(max-width:420px){
+
+    section .left-bar#list-account {
+        width: 60%;
+    }
+    header button#search{
+        padding: 3px 0;
+    }
+}
+@media(max-width:390px){
+    footer section.contact .wrap div {
+        width: 50%;
+    }
+    footer section.contact .wrap ul{
+        text-align: start;
+    }
+    footer section.contact .wrap .payment div.delivery{
+        width: 100%;
+    }
+    footer section.contact .wrap div .image-delivery {
+        justify-content: center;
+    }
+    footer section.contact .wrap div .image-delivery img{
+        height: 40px;
+    }
+     .nav-sec div ul li a{
+        font-size: 16px !important;
+    }
+}
+@media(max-width:360px){
+    
+    header button.bi.bi-list{
+        margin: 0 5px 0 0;
+    }
+    header form{
+        align-items: center;
+    }
+    form input{
+        height: 90%;
+    }
+    header button#search i{
+        padding: 0 5px;
+    }
+    header button#search{
+        margin: 0 !important;
+        height: 90%;
+    }
+    header button.bi.bi-list{
+        font-size: 30px;
+    }
+}
+@media(max-width:300px){
+    
+    section .left-bar#list-account {
+        width: 100%;
+    }
+    footer section.contact .wrap div {
+        width: 100%;
+    }
+    footer section.contact .wrap ul{
+        margin-left: 15%;
+    }
+}

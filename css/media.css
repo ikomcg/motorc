@@ -1,0 +1,237 @@
+@media(max-width:1000px){
+    /* product row */
+    section.Top_Products_Page div.Top_Products div.products div.product_row{
+        width: 20%;
+   
+    }
+    /* testimonal*/
+    section.comment_Page div#carouselExampleControls .carousel-inner .carousel-item .carousel-comment {
+        flex-flow: column;
+    }
+    section.comment_Page div#carouselExampleControls .carousel-inner .carousel-item .carousel-comment .d-block {
+        border-right: none;
+        border-bottom: 1px solid #d92a1f24;
+        color: #1a1a1a;
+        margin-bottom: 20px;
+        
+    }
+    section.comment_Page div#carouselExampleControls {
+        justify-content: center;
+    }
+    section.comment_Page div#carouselExampleControls button {
+        position: relative;
+        margin: 10px auto;
+        height: 28%;
+        top: 42%;
+        width: 15%;
+    }
+
+}
+
+
+@media(max-width:800px){
+    header div.logo{
+        display: none;
+    }
+    header .right-nav{
+        width: 100%;
+    }
+    header .right-nav .nav-search input{
+        width: 100%;
+    }
+    section#home_Page div.home{
+        justify-content: center;
+        height: 60%;
+    }
+    section#home_Page div.home div{
+        margin: 0;
+    }
+    section#home_Page div.home div p{
+        text-align: center;
+        margin: 0;
+    }
+    section.Top_Products_Page div.Top_Products{
+        margin: 60px 0 ;
+    }
+    section.Top_Products_Page div.Top_Products h2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    /*shopbyride*/
+    section.Shop_Page div.shop_products{
+        margin: 60px 0 ;
+    }
+    section.Shop_Page div.shop_products h2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    /*testimonal*/
+    section.comment_Page div.comment h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+}
+@media(max-width:790px){
+    section.Top_Products_Page div.Top_Products div.products div.product_row{
+        width: 25%;
+   
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row .item-img{
+        height: 200px;
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row h3{
+        font-size: 16px;
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row span{
+        font: 16px;
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row div.item-row button{
+        font-size: 16px;
+    }
+    section#home_Page div.home div{
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+    section#home_Page div.home div p{
+        font-size: 16px;
+    }
+    footer section.contact .wrap div {
+        width: 50%;
+        text-align: center;
+    }
+    footer section.contact .wrap div .image-delivery {
+        justify-content: center;
+    }
+    footer section.contact .wrap h5{
+        font-size: 14px;
+    }
+    footer section.contact .wrap div{
+        margin: 0 auto;
+    }
+}
+@media(max-width:700px){
+    section.Shop_Page div.shop_products div.products img{
+        height: 240px;
+    }
+}
+@media(max-width:660px){
+
+    section.Top_Products_Page div.Top_Products div.products div.product_row .item-img{
+        height: 190px;
+    }
+} 
+ @media(max-width:540px){
+
+    section.Top_Products_Page div.Top_Products div.products div.product_row {
+        width: 33%;
+    }
+    section.Shop_Page div.shop_products div.Shop_Page_Products div.products{
+        width: 46%;
+    } 
+    section.Top_Products_Page div.Top_Products div.products div.product_row div.item-row div{
+        padding: 10px 0 0 0 ;
+    }
+    section.Shop_Page div.shop_products div.products div.info_Products h3{
+        font-size: 20px;
+    }
+} 
+@media(max-width:450px){
+    section#home_Page div.home img{
+        width: 70%;
+    }
+
+}
+@media(max-width:400px){
+    section.Top_Products_Page div.Top_Products div.products div.product_row {
+        width: 50%;
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row .item-img{
+        height: 170px;
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row h3{
+        font-size: 14px;
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row span{
+        font: 14px;
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row div.item-row button{
+        font-size: 14px;
+    }
+    section.Shop_Page div.shop_products div.products img{
+        height: 180px;
+    }
+
+}
+@media(max-width:390px){
+    section#home_Page div.home div p{
+        font-size: 14px;
+    }
+    footer section.contact .wrap div {
+        width: 50%;
+    }
+    footer section.contact .wrap ul{
+        text-align: start;
+    }
+    footer section.contact .wrap .payment div.delivery{
+        width: 100%;
+    }
+    footer section.contact .wrap div .image-delivery {
+        justify-content: center;
+    }
+    footer section.contact .wrap div .image-delivery img{
+        height: 40px;
+    }
+}
+@media(max-width:360px){
+    header .main-header{
+        padding: 20px 10px;
+    }
+    header .right-nav .nav-user{
+        align-items: center;
+    }
+    header a{
+        font-size: 20px;
+        padding: 0 0 0 10px;
+    }
+    header button#search{
+        padding: 0 5px;
+    }
+    header button.addcart{
+        font-size: 20px;
+        padding: 0 0 0 10px;
+    }
+    section.brand_Name div ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width:330px){
+
+    section.Shop_Page div.shop_products div.Shop_Page_Products div.products{
+        width: 90%;
+    } 
+    section.comment_Page div.comment h2{
+        font-size: 30px;
+    }
+  
+} 
+@media(max-width:300px){
+    section.Top_Products_Page div.Top_Products div.products div.product_row {
+        width: 99.999%;
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row .item-img{
+        height: 200px;
+    }
+    section.Top_Products_Page div.Top_Products div.products div.product_row div.item-row{
+        height: 70px;
+    }
+    footer section.contact .wrap div {
+        width: 100%;
+    }
+    footer section.contact .wrap ul{
+        margin-left: 15%;
+    }
+}

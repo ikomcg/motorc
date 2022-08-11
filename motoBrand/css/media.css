@@ -1,0 +1,200 @@
+@media(max-width:1000px){
+    section.grid-container .main_Products .products .product_row {
+        width: 25%;
+    }
+    section.grid-container section.menu_moto{
+        width: 40%;
+    }
+}
+@media (max-width: 800px){
+    header .logo{
+        display: none;
+    }
+    header div.right-nav{
+        width: 100%;
+    }
+    section.grid-container div.moto_menu {
+        flex-flow: column;
+        
+    }
+    section.grid-container section.menu_moto {
+        width: auto;
+        padding: 5px;
+        margin: 10px 0 0 0;
+        overflow: scroll;
+    }
+    section.grid-container section.menu_moto .menu_categories ul {
+        display: flex;
+        width: 960px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+    }
+    section.grid-container section.menu_moto .menu_categories li {
+        margin: 0;
+        padding: 0;
+    }
+    section.grid-container section.menu_moto .menu_categories li a{
+        padding: 0;
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:790px){
+    section.grid-container .main_Products .products .product_row .item-img{
+        height: 200px;
+    }
+    section.grid-container .main_Products .products .product_row .item-row h3{
+        font-size: 16px;
+    }
+    section.grid-container .main_Products .products .product_row .item-row span {
+        font-size: 16px;
+    }
+    section.grid-container .main_Products .products .product_row .item-row span{
+        font-size: 16px;
+    }
+    footer section.contact .wrap div {
+        width: 50%;
+        text-align: center;
+    }
+    footer section.contact .wrap div .image-delivery {
+        justify-content: center;
+    }
+    footer section.contact .wrap h5{
+        font-size: 14px;
+    }
+    footer section.contact .wrap div{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 700px){
+    section.brand_Name div.brand{
+        width: 60%;
+    }
+
+}
+@media(max-width:660px){
+    section.grid-container .main_Products .products .product_row .item-img{
+        height: 190px;
+       
+    }
+    
+}
+@media(max-width:570px){
+    section.grid-container .main_Products .products .product_row {
+     width: 46%;  
+    }
+    section.grid-container .main_Products .products .product_row div.item-row div{
+        padding: 5px 0 0 0;
+    }
+    
+}
+@media(max-width:540px){
+    section.grid-container .main_Products .products .product_row {
+     width: 33.33%;  
+    }
+    section.grid-container .main_Products .products .product_row div.item-row{
+        height: 70px;
+    }
+  
+}
+@media (max-width: 440px){
+    section.brand_Name .navBrand{
+        position: relative;
+        overflow: hidden;
+    }
+    section.brand_Name div.brand{
+        width: max-content;
+    }
+    section.brand_Name .navBrand div.brand #brand-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        right: -500px;
+        width: 90% !important;
+        top: -2px;
+        background-color: #ffffff;
+        color: #000 !important;
+        height: 49px;
+        transition: .3s ease-in-out;
+    }
+    section.brand_Name .navBrand div:last-child ul{
+        width: 80%;
+        
+    }
+    section.brand_Name .navBrand div:last-child ul li a{
+        color: #000;
+    }
+    section.brand_Name .navBrand div.brand #brand-nav i{
+        display: block;
+        margin-right: 10px;
+    }
+    section.brand_Name div.brand button{
+        margin: 0 10px;
+        display: block;
+    }
+}
+@media(max-width:400px){
+    section.grid-container .main_Products .products .product_row{
+        width: 50%;
+    }
+    section.grid-container .main_Products .products .product_row .item-img{
+        height: 200px;
+    }
+    section.grid-container .main_Products .products .product_row .item-row h3{
+        font-size: 14px;
+    }
+    section.grid-container .main_Products .products .product_row .item-row span {
+        font-size: 14px;
+    }
+    section.grid-container .main_Products .products .product_row .item-row i{
+        font-size: 14px;
+    }
+}
+@media(max-width:390px){
+    footer section.contact .wrap div {
+        width: 50%;
+    }
+    footer section.contact .wrap ul{
+        text-align: start;
+    }
+    footer section.contact .wrap .payment div.delivery{
+        width: 100%;
+    }
+    footer section.contact .wrap div .image-delivery {
+        justify-content: center;
+    }
+    footer section.contact .wrap div .image-delivery img{
+        height: 40px;
+    }
+}
+@media(max-width:360px){
+
+    header div.right-nav a{
+        font-size: 20px;
+        padding: 0 0 0 10px;
+    }
+    header input#searchProduct{
+        height: 90%;
+    }
+    header button{
+        font-size: 20px;
+        padding: 0 0 0 10px;
+    }
+    section.brand_Name div ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 300px){
+    section.grid-container .main_Products .products .product_row{
+        width: 99.9999%;
+    }
+    footer section.contact .wrap div {
+        width: 100%;
+    }
+    footer section.contact .wrap ul{
+        margin-left: 15%;
+    }
+}

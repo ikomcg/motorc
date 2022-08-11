@@ -1,0 +1,175 @@
+@media(max-width:1000px){
+    .main_Products .products .product_row {
+        width: 20%;
+      
+    }
+}
+
+@media(max-width:800px){
+    header .logo-left{
+        display: none;
+    }
+    .header-div div.left-nav{
+        width: 100%;
+    }
+    section.brand_Name .navBrand div ul{
+        padding-left: 15px;
+    }
+}
+@media(max-width:790px){
+    .main_Products .products .product_row {
+        width: 25%;
+      
+    }
+    .main_Products .products .product_row .item-img{
+        height: 200px;
+    }
+    .main_Products .products .product_row h3{
+        font-size: 16px;
+    }
+    .main_Products .products .product_row span{
+        font-size: 16px;
+    }
+    .main_Products .products .product_row div.item-row button i{
+        font: 16px;
+    }
+    footer section.contact .wrap div {
+        width: 50%;
+        text-align: center;
+    }
+    footer section.contact .wrap div .image-delivery {
+        justify-content: center;
+    }
+    footer section.contact .wrap h5{
+        font-size: 14px;
+    }
+    footer section.contact .wrap div{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 700px){
+    section.brand_Name div.brand{
+        width: 60%;
+    }
+
+}
+@media(max-width:660px){
+    .main_Products .products .product_row .item-img{
+        height: 190px;
+    }
+}
+@media(max-width:540px){
+    .main_Products .products .product_row{
+        width: 33%;
+    }
+    .main_Products .products .product_row div.item-row div{
+        padding: 5px 0 0 0;
+    }
+}
+@media (max-width: 440px){
+    section.brand_Name .navBrand{
+        position: relative;
+        overflow: hidden;
+    }
+    section.brand_Name .navBrand div.brand #brand-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        right: -500px;
+        width: 90% !important;
+        top: -2px;
+        background-color: #ffffff;
+        color: #000 !important;
+        height: 49px;
+        transition: .3s ease-in-out;
+    }
+    section.brand_Name .navBrand div:last-child ul{
+        width: 80%;
+        
+    }
+    section.brand_Name .navBrand div:last-child ul li a{
+        color: #000;
+    }
+    section.brand_Name .navBrand div.brand #brand-nav i{
+        display: block;
+        margin-right: 10px;
+    }
+    section.brand_Name div.brand button{
+        margin: 0 10px;
+        display: block;
+    }
+}
+@media(max-width:400px){
+    .main_Products .products .product_row{
+        width: 50%;
+    }
+    .main_Products .products .product_row .item-img{
+        height: 170px;
+    }
+    .main_Products .products .product_row h3{
+        font-size: 14px;
+    }
+    .main_Products .products .product_row span{
+        font-size: 14px;
+    }
+    .main_Products .products .product_row div.item-row button i{
+        font: 15px;
+    }
+}
+@media(max-width:390px){
+    footer section.contact .wrap div {
+        width: 50%;
+    }
+    footer section.contact .wrap ul{
+        text-align: start;
+    }
+    footer section.contact .wrap .payment div.delivery{
+        width: 100%;
+    }
+    footer section.contact .wrap div .image-delivery {
+        justify-content: center;
+    }
+    footer section.contact .wrap div .image-delivery img{
+        height: 40px;
+    }
+}
+@media(max-width:360px){
+    .header-div{
+        padding: 20px 10px;
+    }
+    header .right-nav .nav-user{
+        align-items: center;
+    }
+    .header-div input#searchProduct{
+        height: 90%;
+    }
+    header a{
+        font-size: 20px;
+        padding: 0 0 0 10px;
+    }
+    header button.addcart{
+        font-size: 20px;
+        padding: 0 0 0 10px;
+    }
+    section.brand_Name div ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width:300px){
+    .main_Products .products .product_row{
+        width: 99.999%;
+    }
+    .main_Products .products .product_row .item-img{
+        height: 200px;
+    }
+    .main_Products .products .product_row div.item-row{
+        height: 70px;
+    }
+    footer section.contact .wrap div {
+        width: 100%;
+    }
+    footer section.contact .wrap ul{
+        margin-left: 15%;
+    }
+}

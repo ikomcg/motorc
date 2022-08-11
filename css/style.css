@@ -1,0 +1,559 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    color: #ed092a;
+    background-color: #ed092a;
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(204, 204, 204, 0.315) !important;
+ 
+}
+.wrap{
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.logo{
+    cursor: pointer;
+}
+header{
+    background-color: #1a1a1a;
+    
+
+}
+header .main-header {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+ 
+}
+header .main-header#header{
+    overflow: hidden;
+}
+header img{
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+}
+header .right-nav{
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: end;
+}
+header .right-nav .nav-search{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    width: 90%;
+    
+    
+}
+header .right-nav .nav-user{
+    display: flex;
+    flex-flow: row nowrap;
+
+    
+}
+header .right-nav .nav-search input{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 90%;
+    padding: 0 10px;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: none
+   
+}
+header button#search{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #ed092a;
+    background-color: #ed092a;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 3px 10px;
+    text-align: left;
+    
+}
+
+
+header button.addcart{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 25px;
+    border: none;
+    font-weight: 900;
+    padding: 3px 10px;
+    
+}
+header a{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 5px 10px;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+header a:hover{
+    color: #ffffff;
+}
+section.categories{
+    width: 100%;
+    height: 5px;
+    background-color: #ed092a;
+}
+section.categories div{
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+}
+section.categories div ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 5px 0;
+    
+}
+section.categories div ul li{
+    list-style: none;
+}
+section.categories div ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+}
+section.categories div ul li::after{
+    content: '';
+    display: block;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #1a1a1a;
+    transition: 0.3s ease-in-out;
+}
+section.categories div ul li:hover::after{
+    width: 100%;
+}
+section#home_Page{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0, .7)),url('../image/bg1.png');
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: top;
+}
+section#home_Page div.home{
+   max-width: 2000px;
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+section#home_Page div.home img{
+    width: 100%;
+}
+section#home_Page div.home div{
+    max-width: 350px;
+    margin-left: 200px;
+}
+section#home_Page div.home div h1{
+    color: #ffffff;
+    font-size: 65px;
+}
+section#home_Page div.home div h1 span{
+    color: #ed092a;
+}
+section#home_Page div.home div p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align:left;
+}
+section.brand_Name{
+    background-color: #ed092a;
+}
+section.brand_Name div{
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+}
+section.brand_Name div ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 5px 0;
+}
+section.brand_Name div ul li{
+    list-style: none;
+   
+}
+section.brand_Name div ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+}
+section.brand_Name div ul li::after{
+    content: '';
+    display: block;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #1a1a1a;
+    transition: width .3s ease-in-out;
+}
+section.brand_Name div ul li:hover::after{
+    width: 100%;
+}
+section.Top_Products_Page{
+
+}
+section.Top_Products_Page div.Top_Products{
+    max-width: 2000px;
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+section.Top_Products_Page div.Top_Products h2{
+    font-size: 50px;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+section.Top_Products_Page div.Top_Products h2 span{
+    color: #ed092a;
+}
+section.Top_Products_Page div.Top_Products div.products{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    margin: 45px auto;
+    width: 100%;
+
+}
+section.Top_Products_Page div.Top_Products div.products div.product_row{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: #000000;
+    width: 16.666%;
+    margin-bottom: 5px;
+    text-align: left;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+section.Top_Products_Page div.Top_Products div.products div.product_row .product_item{
+    width: 95%;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+section.Top_Products_Page div.Top_Products div.products div.product_row .item-img{
+    overflow: hidden;
+    height: 240px;
+}
+section.Top_Products_Page div.Top_Products div.products div.product_row .item-img img{
+
+    width: 100%;
+    height:100%;
+}
+section.Top_Products_Page div.Top_Products div.products div.product_row div.item-row{
+    display: flex;
+    flex-flow: column nowrap ;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    height: 102px;
+}
+
+section.Top_Products_Page div.Top_Products div.products div.product_row div.item-row  div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px 0 5px 0;
+    
+}
+section.Top_Products_Page div.Top_Products div.products div.product_row h3{
+    padding: 5px 0 0 0;
+    font-size: 18px;
+    font-weight: 500;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 0 ;
+  
+}
+section.Top_Products_Page div.Top_Products div.products div.product_row span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ed092a;
+}
+section.Top_Products_Page div.Top_Products div.products div.product_row:hover img{
+    transition: .5s ease-in-out;
+    transform: scale(1.08); 
+  
+}
+section.Top_Products_Page div.Top_Products div.products div.product_row div.item-row button{
+    border: none;
+    font-size: 22px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #ed092a !important;
+}
+section.Shop_Page{
+
+}
+section.Shop_Page div.shop_products{
+    max-width: 2000px;
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+section.Shop_Page div.shop_products h2{
+    font-size: 50px;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+section.Shop_Page div.shop_products h2 span{
+    color: #ed092a;
+}
+section.Shop_Page div.shop_products div.Shop_Page_Products{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 45px 0;
+}
+section.Shop_Page div.shop_products div.Shop_Page_Products div.products{
+    width: 32.5%;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+section.Shop_Page div.shop_products div.products a{
+    
+}
+section.Shop_Page div.shop_products div.products img{
+   width:100%;
+   height: 300px;
+
+
+}
+section.Shop_Page div.shop_products div.products{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+section.Shop_Page div.shop_products div.products div.info_Products{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+    align-items: center;
+  
+ 
+}
+/* section.Shop_Page div.shop_products div.products div.info_Products:hover{
+    background-color: rgba(0, 0, 0, 1);
+} */
+section.Shop_Page div.shop_products div.products:hover div.image_products img{
+    transition: .8s ease-in-out;
+    transform: scale(1.05);
+}
+section.Shop_Page div.shop_products div.products div.info_Products h3{
+    background-color: #ed092a;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 10px 0 ;
+}
+/* section.Shop_Page div.shop_products div.Shop_Page_Products div.products:hover div.info_Products{
+   
+   left: 0;
+    
+} */
+section.comment_Page div.comment {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 2000px;
+    width: 100%;
+    margin: 100px auto;
+    
+}
+section.comment_Page div.comment h2{
+    font-size: 50px;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+section.comment_Page div.comment h2 span{
+    color: #ed092a;
+}
+section.comment_Page div#carouselExampleControls{
+    width: 100%;
+    margin: 90px 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+section.comment_Page div#carouselExampleControls .carousel-inner{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+section.comment_Page div#carouselExampleControls .carousel-inner .carousel-item.active {
+    width: 90%;
+    margin: 0 auto;
+}
+section.comment_Page div#carouselExampleControls .carousel-inner .carousel-item .carousel-comment{
+    display: flex;
+    flex-flow: row ;
+    text-align: center;
+
+    
+}
+section.comment_Page div#carouselExampleControls .carousel-inner .carousel-item .carousel-comment .d-block .star_comment i{
+    color: #ed092a;
+    
+}
+section.comment_Page div#carouselExampleControls .carousel-inner .carousel-item .carousel-comment .d-block{
+    border-right: 1px solid #ed092a;
+    color: #1a1a1a;
+}
+section.comment_Page div#carouselExampleControls .carousel-inner .carousel-item .d-block .w-100{
+    width: 30%;
+}
+section.comment_Page div#carouselExampleControls button{
+    margin: 0 10px ;
+    width: 3%;
+    background-color: #ed092a;
+}
+footer  section.bannerLogo .wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer  section.bannerLogo .wrap img{
+    width: 10%;
+   
+}
+footer section.bannerLogo{
+ background-color: #ed092a;
+ height: 45%;
+}
+footer section.contact{
+    background-color: #1a1a1a;
+    height: 55%;
+
+}
+footer section.contact .wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 50px 0;
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+footer section.contact .wrap p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 15px;
+    
+  
+}
+footer section.contact .wrap ul{
+    padding: 0;
+}
+footer section.contact .wrap ul li{
+    list-style: none;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+footer section.contact .wrap ul li i{
+    color: #ed092a;
+    font-size: 16px;
+    margin-right: 10px;
+}
+footer section.contact .wrap div{
+    max-width: 500px;
+
+}
+footer section.contact .wrap div .image-delivery{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+footer section.contact .wrap img#logo{
+    max-width: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+footer section.contact .wrap img{
+    max-width: 50px;
+    width: 100%;
+}
+footer section.contact .wrap h5{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+footer section.contact .wrap a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 200px;
+    text-decoration: none;
+
+}
+footer section.contact .wrap a:hover{
+    color: #ed092a;
+}
+footer section.contact .wrap a i{
+    color: #ed092a;
+    font-size: 16px;
+    margin-right: 10px;
+}
+footer section.contact .wrap ul li svg{
+    color: #ed092a;
+    font-size: 16px;
+    margin-right: 10px;
+}

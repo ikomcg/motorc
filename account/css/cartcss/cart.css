@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    color: #ed092a;
+    background-color: #ed092a;
+}
+h5{
+    font-weight: 400;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    background-color:#ffffff
+ 
+}
+section {
+  background-color: #ffffff;
+   
+}
+section div.item-cart{
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+section div.item-cart-product{
+    padding: 20px 0;
+    height: 500px;
+    overflow: auto;
+}
+.top-product{
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: #ed092a;;
+    font-weight: 500;
+}
+.top-product div.d-flex h4{
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 5px;
+    
+
+}
+input[type="checkbox"]{
+    color: #ed092a;
+    width: 1.15em;
+    height: 1.15em;
+}
+h4.m-0.p-2{
+  border-right: 1px solid #ed092a;
+  padding: 2px 10px !important;
+}
+.item-user img{
+    max-width: 190px;
+    width: 100%;
+    height: 160px;
+} 
+.item-user div.d-flex div{
+    width: 100%;
+}
+.item-user div.d-flex div.cart-button{
+    width: max-content;
+}
+.item-user div.d-flex div span{
+    color: #ed092a;
+    font-size: 20px;
+    font-weight: 400;
+}
+button.remove-cart{
+    background-color: transparent;
+    border: none;
+    color: #ed092a;
+    font-size: 20px;
+}
+div.button-item {
+    padding: 15px ;
+}
+div.button-item h4{
+    font-size: 20px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+div.button-item button{
+    background-color: #ed092a;
+    border: 1px solid #ed092a;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, .2);
+    color: #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+div.button-item h4 span{
+    color: #ed092a;
+}
+div.cart-checkout h4 ,span{
+    color: #ed092a;
+}
+div.cart-checkout span{
+    font-size: 20px;
+}
+div.cart-checkout button{
+    background-color: #ed092a;
+    border: 1px solid #ed092a;
+    box-shadow: 5px 3px 6px 2px rgba(0, 0, 0, .2);
+    color: #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 20%;
+}
+
+div#no-result{
+    display: none;
+    margin-top: 30px;   
+   
+}
+div#no-result img{
+    height: 350px;
+}
+@media(max-width:790px){
+    .item-user div.d-flex div h4{
+        font-size: 16px;
+        text-align: start;
+    }
+    button.remove-cart{
+        font-size: 16px;
+    }
+    .item-user div.d-flex div span{
+        font-size: 16px;
+    }
+    .item-user div.d-flex div.item-info{
+        margin-top: 10px;
+    }
+    .item-user div.d-flex div.item-info h5{
+       
+        font-size: 16px;
+    }
+}
+@media(max-width:650px){
+    .item-user img{
+        width: 30%;
+      
+    }
+}
+
+@media(max-width:465px){
+    div.cart-checkout button{
+        width: 30%;
+    }
+}
+@media(max-width:400px){
+   
+    div#no-result img{
+        width: 80%;
+        height: 290px
+    }
+}
+@media(max-width:360px){
+    .top-product{
+        padding: 15px 10px;
+    }
+    .top-product h3{
+        font-size: 16px;
+    }
+    .top-product div.d-flex h4{
+        font-size: 16px
+    }
+    .item-user img{
+        width: 50%;
+        height: 100px;
+    }
+    section div.item-cart-product .item-user .d-flex.p-1{
+        flex-flow: column;
+    }
+    .item-user div.d-flex div:nth-child(1){
+       flex-flow: column;
+        align-items: flex-start !important;
+               
+     }
+     .item-user div.d-flex div.cart-button{
+        display: flex;
+        flex-flow: row;
+        justify-content: end;
+         width: 100%;
+     }
+     .item-user div.d-flex div.cart-button div{
+         flex-flow:  row wrap !important;
+         align-items: center !important;
+         width: max-content;
+       
+     }
+     .item-user div.d-flex div h4{
+        font-size: 13px;
+     }
+     .item-user div.d-flex div.item-info h5{
+        font-size: 13px;
+     }
+     .item-user div.d-flex div span{
+        font-size: 13px;
+     }
+     .item-user div.d-flex div.cart-button h4{
+        font-size: 13px !important;
+     }
+     button.remove-cart{
+        font-size: 13px;
+     }
+     input[type="checkbox"] {
+        color: #ed092a;
+        width: 1em !important;
+        height: 1em !important;
+    }
+}
+@media(max-width:270px){
+    .item-user img{
+        width: 100%;
+    }
+}

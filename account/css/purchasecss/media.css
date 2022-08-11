@@ -1,0 +1,84 @@
+@media(max-width:750px){
+    div.nav-purchase {
+        overflow: auto;
+    }
+    div.nav-purchase div{
+        width: 750px;
+    }
+    
+    div.nav-purchase div ul li{
+    font-size: 16px;
+    }
+    div.to-pay .top-product h3{
+        font-size: 16px;
+    }
+    div.to-pay .top-product span{
+        font-size: 12px;
+    }
+    div.to-pay .item-user div.d-flex div h4 ,h5{
+        font-size: 16px;
+    }
+    div.to-pay .item-user div.d-flex div span{
+        font-size: 16px;
+    }
+    div.to-pay div.button-item h4{
+        font-size: 16px;
+        margin: 0;
+    }
+    div.to-pay .top-product span i {
+        font-size: 16px !important;
+    }
+    div.to-pay div.button-item button {
+        padding: 2px 5px;
+       
+    }
+}
+@media(max-width:650px){
+    div.to-pay .item-user img{
+        width: 30%;
+    }
+}
+@media (max-width:400px){
+    div.to-pay .item-user img{
+        height: 100px;
+    }
+    div.to-pay div.button-item{
+        flex-flow: column !important;
+        align-items: end !important;
+    
+        padding: 5px;
+    }
+    div.to-pay div.button-item .button-purchase{
+        display: flex;
+        width: 100% !important;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    div.to-pay div.button-item button{
+        font-size: 14px;
+        padding: 0 5px;
+       
+    }
+}
+@media(max-width:360px){
+   
+    div.nav-purchase div ul li{
+        font-size: 14px;
+    }
+    div.to-pay .top-product span{
+        font-size: 10px;
+    }
+    div.to-pay .item-user div.d-flex div h4, h3, h5{
+        font-size: 12px;
+    }
+    div.to-pay .top-product{
+        padding: 15px 10px;
+    }
+    .item-user div.d-flex{
+        flex-flow: column;
+    }
+    div.to-pay .item-user img {
+        width: 50%;
+        height: 100px;
+    }
+}

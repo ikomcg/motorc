@@ -1,0 +1,35 @@
+@media(max-width:800px){
+    div.wrap hr{
+        margin: 0;
+    }
+    div.wrap div.user-motorc{
+        margin: 15px 10px;
+    }
+    div.wrap div.user-motorc i {
+        font-size: 25px;
+        padding: 10px 15px;
+    }
+    div.wrap div.user-motorc h4{
+        font-size: 20px;
+    }
+    div.wrap .user-form form{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    div.user-form form div.col-auto {
+        width: 30%;
+        text-align: start;
+    }
+}
+@media(max-width:450px){
+    div.wrap .user-form form div.m-2{
+        flex-flow: column !important;
+        align-items: start !important;
+    }
+    div.user-form form div.col-auto:last-child{
+        width:100% !important;
+    }
+    div.user-form form div.col-auto{
+        width: 100%;
+    }
+}

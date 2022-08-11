@@ -1,0 +1,10 @@
+div#no-result{
+    margin-top: 40px;
+    display: none;
+}
+@media(max-width: 500px)
+{
+    div#no-result img{
+        width: 80%;
+    }
+}

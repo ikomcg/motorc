@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.wrap{
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+}
+section.main-header {
+    background-color: #1a1a1a;
+
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+ 
+}
+header img{
+    max-width: 200px;
+    width: 100%;
+    cursor: pointer;
+}
+body div.red_div{
+    background-color: #ed092a;
+    width: 100%;
+    
+}
+body div.red_div ul {
+    padding: 5px 0 5px 30px ;
+}
+body div.red_div ul li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    width: max-content;
+}
+body div.red_div ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+body div.red_div ul li::after{
+    content: '';
+    background-color: #1a1a1a;
+    color: #1a1a1a;
+    width: 0;
+    height: 3px;
+    display: block;
+    transition: .3s ease-in-out;
+}
+body div.red_div ul li:hover::after{
+    width: 100%;
+}
+section.login-Page{
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../image/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section div.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section div.wrap .logo-left{
+    text-align: center;
+    max-width: 550px;
+    width: 100%;
+}
+section div.wrap .logo-left img{
+    max-width: 350px;
+    width: 100%;
+}
+section div.wrap .logo-left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+section div.wrap .form-right{
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 5px;
+    margin: 50px 0 ;
+    text-align: center;
+    width: 30%;
+}
+section div.wrap .form-right h2{
+    color: #ed092a;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 10px;
+}
+section div.wrap .form-right form div{
+    text-align: center;
+}
+section div.wrap .form-right input{
+  outline: none;
+  padding: 10px;
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid #b6b3b3;
+  
+}
+section div.wrap .form-right input:focus{
+    border: 1px solid #ed092a;
+}
+section div.wrap .form-right button{
+    cursor: pointer;
+    background-color: #ed092a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px ;
+    padding: 5px 90px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+section div.wrap .form-right div.forgotPassword{
+    text-align: start;
+    margin-left: 10px;
+}
+section div.wrap .form-right div.forgotPassword li{
+    list-style: none;
+}
+
+section div.wrap .form-right div.forgotPassword ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #ed092a;
+}
+section div.wrap .form-right .social-account{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+section div.wrap .form-right .social-account div{
+    width: 40%;
+    height: 1px;
+    background-color: #ed092a;
+}
+section div.wrap .form-right .social-media ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+section div.wrap .form-right .social-media ul li{
+    list-style: none;
+    border: 1px solid #b6b3b3;
+    padding: 5px 10px ;
+    margin: 10px 5px;
+    
+}
+section div.wrap .form-right .social-media ul li:hover{
+    border-color: #ed092a;
+}
+section div.wrap .form-right .social-media ul li i{
+    margin: 2px;
+    color: #ed092a;
+    font-size: 15px;
+}
+section div.wrap .form-right .social-media ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+section div.wrap .form-right span:last-child{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 10px;
+}
+section div.wrap .form-right span:last-child a{
+    text-decoration: none;
+    color: #ed092a;
+}
+footer  section.bannerLogo .wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer  section.bannerLogo .wrap img{
+    width: 10%;
+   
+}
+footer section.bannerLogo{
+ background-color: #ed092a;
+ height: 45%;
+}
+footer section.contact{
+    background-color: #1a1a1a;
+    height: 55%;
+
+}
+footer section.contact .wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    padding: 50px 0;
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+footer section.contact .wrap p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    
+  
+}
+footer section.contact .wrap ul li{
+    list-style: none;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+footer section.contact .wrap ul li i{
+    color: #ed092a;
+    font-size: 16px;
+    margin-right: 10px;
+}
+footer section.contact .wrap div{
+    max-width: 500px;
+
+}
+footer section.contact .wrap div .image-delivery{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+footer section.contact .wrap img#logo{
+    max-width: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+footer section.contact .wrap img{
+    max-width: 50px;
+    width: 100%;
+}
+footer section.contact .wrap h5{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+footer section.contact .wrap a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 200px;
+    text-decoration: none;
+
+}
+footer section.contact .wrap a:hover{
+    color: #ed092a;
+}
+footer section.contact .wrap a i{
+    color: #ed092a;
+    font-size: 16px;
+    margin-right: 10px;
+}
+footer section.contact .wrap ul li svg{
+    color: #ed092a;
+    font-size: 16px;
+    margin-right: 10px;
+}

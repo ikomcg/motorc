@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--bootstrap 5-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+     <!--Google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--fontawsome link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="css/cartcss/cart.css">
+</head>
+<body class="">
+    <section >
+            <div class="cart-col m-1">
+                <div class="top-product">
+                    <h3 class="m-0"><i class="bi bi-cart"></i> Cart</h3>
+                    <div class="d-flex align-items-center">
+                        <input type="checkbox" id="selectall">
+                        <h4>Select All</h4>
+                    </div>
+                </div>
+                    <hr>
+                    <div class="item-cart">
+                        <div class="item-cart-product">
+                            <div class="item-user d-flex flex-column mb-2">
+                                <div class="d-flex p-1">
+                                     <img src="../image/products/raider/1.jpg" alt="">
+                                    <div class="d-flex flex-column justify-content-around p-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4 class="m-0">RK SET SPROCKET ENGINE SPROCKET AND CHAIN GOLD</h4>
+                                            <div class="cart-button">
+                                                <div class="d-flex align-items-center m-0">
+                                                    <input type="checkbox" class="select_cart">
+                                                    <h4 class="m-0 p-2" style="font-size: 17px;color: #ed092a;">select</h4>
+                                                     <button class="remove-cart m-2" title="remove"><i class="bi bi-trash-fill"></i></button>
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                        <div class="item-info d-flex flex-row justify-content-between">
+                                            <h5>Quantity: <span>1</span></h5>
+                                            <span class="price-cart">$ 12345</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-user d-flex flex-column mb-2">
+                                <div class="d-flex p-1">
+                                     <img src="../image/products/rcb/6.jpg" alt="">
+                                    <div class="d-flex flex-column justify-content-around p-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h4 class="m-0">RCB BRAKE PAD (FOR SNIPER)</h4>
+                                            <div class="cart-button">
+                                                <div class="d-flex align-items-center m-0">
+                                                    <input type="checkbox" class="select_cart">
+                                                    <h4 class="m-0 p-2" style="font-size: 17px;color: #ed092a;">select</h4>
+                                                     <button class="remove-cart m-2" title="remove"><i class="bi bi-trash-fill"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-info d-flex flex-row justify-content-between">
+                                            <h5>Quantity: <span>1</span></h5>
+                                            <span class="price-cart">$ 12345</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="no-result" class="justify-content-center align-items-center">
+                                <img src="../image/noproduct/no-result.png" alt="">
+                            </div>
+
+                        </div>
+                      
+                        <div class="cart-checkout d-flex flex-column justify-content-center m-3">
+                            <hr>
+                            <div class="d-flex flex-row justify-content-between">
+                                <h4>SUBTOTAL:</h4>
+                                <span class="price-cart-total">$ -----</span>
+                            </div>
+                            <div class="d-flex flex-column align-items-end">
+                                <button>CheckOut</button>
+                            </div>
+                           
+                        </div>
+                    </div>
+            </div> 
+    </section>
+
+    <script src="js/removecart.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
