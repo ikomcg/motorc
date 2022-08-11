@@ -23,7 +23,7 @@ document.getElementById("close-cart").addEventListener("click" ,function(){
      }
 })
 window.onload = function(){
-    
+    increasdecreasequntity();
 }
 
 //add to cart
@@ -78,28 +78,26 @@ document.getElementById('add-to-cart').addEventListener('click',function(){
          increasdecreasequntity(); 
       
 })
-function addcart(){
-  
-}
 function show_status(){
-    const show = document.getElementById('confirm-cart')
+    const show_confirm = document.getElementById('confirm-cart')
 
     show.style.display = 'block';
 
     const myTimeout = setTimeout(showconfirm, 1500);
     function showconfirm() {
-        show.style.display = 'none';
+        show_confirm.style.display = 'none';
     }
 
 }
 function exist_status(){
-    const show = document.getElementById('exist-cart')
-
-    show.style.display = 'block';
-
+    const show_confirm = document.getElementById('confirm-cart')
+    show.style.display = 'none';
+    
+    const show_exist = document.getElementById('exist-cart')
+    show_exist.style.display = 'block';
     const myTimeout = setTimeout(showconfirm, 1500);
     function showconfirm() {
-        show.style.display = 'none';
+        show_exist.style.display = 'none';
     }
 
 }
