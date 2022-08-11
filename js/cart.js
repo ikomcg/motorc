@@ -88,7 +88,7 @@ function show_status(){
 function exist_status(){
     const show = document.getElementById('exist-cart')
 
-    show.style.display = 'block';
+    show.style.display = 'none';
 
     const myTimeout = setTimeout(showconfirm, 1500);
     function showconfirm() {
