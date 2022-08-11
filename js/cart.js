@@ -1,12 +1,11 @@
 increasdecreasequntity();
-//open cart
+
 document.getElementById("open-cart").addEventListener("click" ,function(){
     document.getElementById('cart-section').style.right = '0';
     document.getElementById("header").style.overflow ='visible'
     document.getElementsByTagName("body")[0].classList.add('show-cart');
 })
 
-//close cart
 document.getElementById("close-cart").addEventListener("click" ,function(){
      const cart = document.getElementById('cart-section');
      cart.style.right= '-1000px';
@@ -23,8 +22,6 @@ document.getElementById("close-cart").addEventListener("click" ,function(){
      }
 })
 
-
-//add to cart
 const item= document.getElementsByClassName('moto-item');
 const itemname = item[0].getElementsByTagName('h3')[0];
 const itemsrc = item[0].getElementsByTagName('img')[0].getAttributeNode("src");
@@ -100,7 +97,7 @@ function exist_status(){
 
 }
 function increasdecreasequntity(){
-    //minus quantity
+    
     const quanti_class = document.getElementsByClassName('item-quantity')
     const last_class = quanti_class.length
       
@@ -119,7 +116,7 @@ function increasdecreasequntity(){
             
 
         }
-    // add quantity
+
         quanti_class[last_class - 1].getElementsByClassName('bi bi-plus')[0].addEventListener('click' ,function(){
         var itemquantity = quanti_class[last_class - 1].getElementsByClassName('cart-quanti')[0];
         
@@ -153,6 +150,5 @@ function updatePrice(){
     const price_total = price_class[0].getElementsByTagName('span')[0];
 
     price_total.innerText = "$ " +  total
-//    console.log(total)
-    
+
 }
