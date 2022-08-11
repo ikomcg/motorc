@@ -6,8 +6,6 @@ const itemimgsrc = itemdesc[0].getElementsByTagName('img')[0].getAttributeNode("
 const priceview = itemdesc[0].getElementsByTagName('h5')[0]
 
 
-
-//open purchase page
 for(let i = 0;i < productrow.length; i++){
     
    productrow[i].addEventListener("click",function(){
@@ -24,7 +22,7 @@ for(let i = 0;i < productrow.length; i++){
    })
   
 }
-//close purchase page
+
 document.getElementById('close-item-moto').addEventListener('click', closepurchase)
 function closepurchase(){
     document.getElementById("product-view").style.display = 'none';    
@@ -32,19 +30,17 @@ function closepurchase(){
     
 }
 
-
-
-
-
-//add quanti-item
-
 document.getElementById('add-quanti').addEventListener('click',function(){
     var quanti_value = document.getElementById('quanti-item');
-
-    quanti_value.value++ ;
+    if(quanti_value.value == 10 ){
+        return
+    }
+    quanti_value.value++;
 })
 document.getElementById('minus-quanti').addEventListener('click',function(){
     var quanti_value = document.getElementById('quanti-item');
-
+    if(quanti_value.value == 1 ){
+        return
+    }
     quanti_value.value-- ;
 })
