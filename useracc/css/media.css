@@ -38,8 +38,13 @@
 
 @media(max-width:390px){
     footer section.contact .wrap div {
+        width: 50%;
+    }
+    footer section.contact .wrap ul{
+        text-align: start;
+    }
+    footer section.contact .wrap .payment div.delivery{
         width: 100%;
-        text-align: center;
     }
     footer section.contact .wrap div .image-delivery {
         justify-content: center;
@@ -53,6 +58,11 @@
         width: 90%;
     }
 }
-@media(max-width:280px){
-  
+@media(max-width:300px){
+   footer section.contact .wrap div {
+        width: 100%;
+    }
+    footer section.contact .wrap ul{
+        margin-left: 15%;
+    }
 }
