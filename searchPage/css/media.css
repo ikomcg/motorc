@@ -32,7 +32,7 @@
         font-size: 16px;
     }
     section.grid-container .main_Products .products .product_row i{
-        font-size: 16px;
+        font-size: 16px !important;
     }
     footer section.contact .wrap div {
         width: 50%;
@@ -78,7 +78,7 @@
         font-size: 14px;
     }
     section.grid-container .main_Products .products .product_row i{
-        font-size: 14px;
+        font-size: 14px !important;
     }
     section.grid-container .main_Products .products .product_row div.item-row{
         height: 70px;
