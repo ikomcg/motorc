@@ -52,9 +52,10 @@ div.user-form form button{
     padding: 2px 20px;
     border-radius: 2px;
     margin: 20px 0 0 50px ;
-    color: #000000;
+    color: #ffffff;
+    font-weight: 400;
     font-size: 20px;
-    font-weight: 500;
+    
 }
 div.user-form form button:hover{
     transition: 0.2s ease-in-out;
