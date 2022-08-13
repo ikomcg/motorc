@@ -115,6 +115,9 @@
         margin: 0;
         padding: 0 0 0 10px;
     }
+    section.brand_Name ul li a{
+        font-size: 16px;
+    }
 }
 @media (max-width: 300px){
     section.grid-container .main_Products .products .product_row {
