@@ -270,7 +270,7 @@ div#exist-cart span{
         font-size: 14px;
     }
     .item-description div.footer ul li i{
-        font-size: 14px;
+        font-size: 14px !important;
     }
     .item-description div.footer ul li a{
         font-size: 14px;
