@@ -79,7 +79,7 @@ header button i{
 }
 
 section.brand_Name{
-    background-color: #ed092a;
+    background-color: #d50826;
 }
 section.brand_Name .navBrand{
     display: flex;
@@ -282,7 +282,7 @@ footer  section.bannerLogo .wrap img{
    
 }
 footer section.bannerLogo{
- background-color: #ed092a;
+ background-color: #d50826;
  height: 45%;
 }
 footer section.contact{
