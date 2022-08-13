@@ -243,7 +243,7 @@ footer section.contact .wrap div{
     max-width: 500px;
 
 }
-footer section.contact .wrap div.contact-information{
+footer section.contact .wrap div .contact-information ul{
     text-align: right;
 }
 footer section.contact .wrap div .image-delivery{
