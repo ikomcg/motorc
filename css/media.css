@@ -99,6 +99,9 @@
     section#home_Page div.home div p{
         font-size: 16px;
     }
+    section.Top_Products_Page div.Top_Products div.products div.product_row div.item-row button{
+          font-size: 16px;
+    }
     footer section.contact .wrap div {
         width: 50%;
         text-align: center;
@@ -166,6 +169,9 @@
     }
     section.Shop_Page div.shop_products div.products img{
         height: 180px;
+    }
+        section.Top_Products_Page div.Top_Products div.products div.product_row div.item-row button{
+          font-size: 14px;
     }
 
 }
