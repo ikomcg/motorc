@@ -106,7 +106,7 @@ section.brand_Name ul li {
     list-style: none;
    
 }
-section.brand_Name ul li::after{
+/* section.brand_Name ul li::after{
     content: '';
     display: block;
     left: 0;
@@ -117,7 +117,7 @@ section.brand_Name ul li::after{
 }
 section.brand_Name ul li:hover:after{
     width: 100%;
-}
+} */
 section.brand_Name div.brand button {
     display: none;
     background-color: transparent;
