@@ -269,6 +269,9 @@ div#exist-cart span{
     .moto-item div.button-item button{
         font-size: 14px;
     }
+    .item-description div.footer ul li a{
+        font-size: 14px;
+    }
 }
 
 @media(max-width: 370px){
