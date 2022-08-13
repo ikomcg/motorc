@@ -78,7 +78,7 @@
         flex-flow: column;
     }
     div.to-pay .item-user img {
-        width: 50%;
+        width: 40%;
         height: 100px;
     }
 }
