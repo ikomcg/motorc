@@ -380,7 +380,7 @@ section.Shop_Page div.shop_products div.products:hover div.image_products img{
     transform: scale(1.05);
 }
 section.Shop_Page div.shop_products div.products div.info_Products h3{
-    background-color: #ed092a;
+    background-color: #d50826;
     color: #ffffff;
     border-radius: 5px;
     padding: 5px 20px;
@@ -457,7 +457,7 @@ footer  section.bannerLogo .wrap img{
    
 }
 footer section.bannerLogo{
- background-color: #ed092a;
+ background-color: #d50826;
  height: 45%;
 }
 footer section.contact{
