@@ -208,18 +208,6 @@ section.brand_Name div ul li a{
     color: #ffffff;
     font-weight: 500;
 }
-section.brand_Name div ul li::after{
-    content: '';
-    display: block;
-    left: 0;
-    width: 0;
-    height: 3px;
-    background-color: #1a1a1a;
-    transition: width .3s ease-in-out;
-}
-section.brand_Name div ul li:hover::after{
-    width: 100%;
-}
 section.Top_Products_Page{
 
 }
