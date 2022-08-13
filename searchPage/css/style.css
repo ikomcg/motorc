@@ -103,7 +103,7 @@ section.brand_Name div.brand ul{
 }
 section.brand_Name ul li {
     list-style: none;
-    padding: 5px 0 ;
+    padding: 0 ;
 }
 section.brand_Name ul li::after{
     content: '';
