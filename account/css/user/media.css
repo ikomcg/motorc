@@ -32,4 +32,7 @@
     div.user-form form div.col-auto{
         width: 100%;
     }
+    div.user-form form button{
+        padding: 1px 10px;
+    }
 }
