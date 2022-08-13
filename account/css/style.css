@@ -129,7 +129,7 @@ header button.bi.bi-list{
     color: #ffffff;
     font-weight: 500;
 }
-.nav-sec div ul li::after{
+/* .nav-sec div ul li::after{
     content: '';
     display: block;
     left: 0;
@@ -140,7 +140,7 @@ header button.bi.bi-list{
 }
 .nav-sec div ul li:hover::after{
     width: 100%;
-}
+} */
 
 section.user-account div.wrap{
     display: flex;
