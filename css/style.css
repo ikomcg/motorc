@@ -208,11 +208,11 @@ section.brand_Name div ul li{
    
 }
 section.brand_Name div ul li:nth-child(1){
-    border-right: 1.5px solid white;
+    border-right: 2px solid white;
     
 }
 section.brand_Name div ul li:nth-child(2){
-    border-right: 1.5px solid white;
+    border-right: 2px solid white;
 }
 section.brand_Name div ul li a{
     text-decoration: none;
