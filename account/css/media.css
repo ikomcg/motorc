@@ -101,6 +101,7 @@
     header button#search{
         margin: 0 !important;
         height: 90%;
+        padding: 0 !important;
     }
     header button.bi.bi-list{
         font-size: 30px;
