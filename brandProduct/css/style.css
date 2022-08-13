@@ -114,7 +114,7 @@ section.brand_Name .navBrand div.brand #brand-nav i{
     color: #ed092a;
     display: none;
 }
-section.brand_Name ul li::after{
+/* section.brand_Name ul li::after{
     content: '';
     display: block;
     left: 0;
@@ -125,7 +125,7 @@ section.brand_Name ul li::after{
 }
 section.brand_Name ul li:hover:after{
     width: 100%;
-}
+} */
 section.brand_Name ul li{
     color: #ffffff;
     font-size: 22px;
