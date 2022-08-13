@@ -90,8 +90,8 @@ header .right-nav .nav-search input{
 header button#search{
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-    border: 3px solid #ed092a;
-    background-color: #ed092a;
+    border: 3px solid #d50826;
+    background-color: #d50826;
     color: #ffffff;
     font-size: 24px;
     font-weight: 400;
@@ -222,7 +222,7 @@ footer  section.bannerLogo .wrap img{
    
 }
 footer section.bannerLogo{
- background-color: #ed092a;
+ background-color: #d50826;
  height: 45%;
 }
 footer section.contact{
