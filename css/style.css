@@ -447,6 +447,77 @@ section.comment_Page div#carouselExampleControls button{
     width: 3%;
     background-color: #ed092a;
 }
+
+ #form-comment{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 999999;
+    width: 100%; 
+    height: 100vh;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#form-comment i{
+    color: #d50826;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 3px;
+    
+}
+#form-comment form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    width: 40%;
+    border-radius: 10px;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+#form-comment form h6{
+ font-size: 20px;
+ font-weight: 500;
+}
+#form-comment form i.bi.bi-person-circle{
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+#form-comment button{
+    background-color: transparent;
+    border:none;
+    font-size: 35px;
+    color: #ed092a;
+  
+}
+#form-comment form div{
+    width: 100%;
+}
+#form-comment form button{
+    background-color: transparent;
+    border: 1px solid #d50826;
+    color: #000;
+    padding: 2px 10px ;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 2px;
+    margin: 0 20px;
+}
+#form-comment form button:hover{
+    background-color: #d50826;
+    color: #ffffff;
+}
 footer  section.bannerLogo .wrap{
     display: flex;
     justify-content: space-around;
