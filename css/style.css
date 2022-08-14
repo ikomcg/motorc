@@ -449,7 +449,7 @@ section.comment_Page div#carouselExampleControls button{
 }
 
  #form-comment{
-    display: flex;
+    display: none;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
