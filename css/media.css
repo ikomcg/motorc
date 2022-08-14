@@ -27,8 +27,14 @@
     }
 
 }
-
-
+@media(max-width:950px){
+    #form-comment .button-exit{
+        width: 70% !important;
+    }
+    #form-comment form{
+        width: 70%;
+    }
+}
 @media(max-width:800px){
     header div.logo{
         display: none;
@@ -126,6 +132,12 @@
     section.Top_Products_Page div.Top_Products div.products div.product_row .item-img{
         height: 190px;
     }
+    #form-comment .button-exit{
+       width: 85% !important;
+    }
+    #form-comment form{
+        width: 85%;
+    }
 } 
  @media(max-width:540px){
 
@@ -215,6 +227,12 @@
     }
     section.brand_Name div ul li a{
         font-size: 16px;
+    }
+        #form-comment .button-exit{
+        width: 95% !important;
+    }
+    #form-comment form{
+        width: 95%;
     }
 }
 @media(max-width:330px){
