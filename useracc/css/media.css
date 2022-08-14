@@ -29,6 +29,11 @@
     footer section.contact .wrap ul li {
         font-size: 12px;
     }
+    footer section.contact .wrap ul{
+        margin-left:10px;
+        text-align:start;
+    
+    }
 }
 @media(max-width:500px){
     section div.wrap .form-right{
