@@ -447,7 +447,15 @@ section.comment_Page div#carouselExampleControls button{
     width: 3%;
     background-color: #ed092a;
 }
-
+section.comment_Page button{
+    background-color: #d50826 ;
+    border: 1px solid #d50826;
+    color: #ffffff;
+    padding: 5px 10px ;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 2px;
+}
  #form-comment{
     display: none;
     flex-flow: column nowrap;
