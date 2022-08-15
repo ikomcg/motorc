@@ -147,7 +147,7 @@ div#no-result img{
 }
 @media(max-width:650px){
     .item-user img{
-        width: 30%;
+        height:125px;
       
     }
 }
