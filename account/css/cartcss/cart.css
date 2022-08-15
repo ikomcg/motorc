@@ -159,6 +159,10 @@ div#no-result img{
       section div.item-cart-product .item-user .d-flex.p-1{
         flex-flow: column;
     }
+    .item-user img {
+        width: 40%;
+        height: 120px;
+    }
 }
 @media(max-width:400px){
    
