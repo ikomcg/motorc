@@ -122,9 +122,9 @@
         margin: 0 auto;
     }
     footer section.contact .wrap ul{
-        margin-left:10px;
+        width: fit-content;
+        margin: 0 auto;
         text-align:start;
-    
     }
 }
 @media(max-width:700px){
