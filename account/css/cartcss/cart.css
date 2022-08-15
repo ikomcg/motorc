@@ -156,6 +156,9 @@ div#no-result img{
     div.cart-checkout button{
         width: 30%;
     }
+      section div.item-cart-product .item-user .d-flex.p-1{
+        flex-flow: column;
+    }
 }
 @media(max-width:400px){
    
@@ -178,9 +181,7 @@ div#no-result img{
         width: 40%;
         height: 100px;
     }
-    section div.item-cart-product .item-user .d-flex.p-1{
-        flex-flow: column;
-    }
+  
     .item-user div.d-flex div:nth-child(1){
        flex-flow: column;
         align-items: flex-start !important;
