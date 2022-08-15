@@ -35,7 +35,6 @@
 }
 @media(max-width:650px){
     div.to-pay .item-user img{
-        width: 30%;
         height:125px;
     }
 }
