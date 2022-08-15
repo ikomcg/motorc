@@ -247,10 +247,11 @@ footer section.contact .wrap div{
 footer section.contact .wrap div.contact-information ul{
     text-align: left;
 }
-footer section.contact .wrap div .image-delivery{
-    display: flex;
-    flex-flow: row;
-    width: 100%;
+ footer section.contact .wrap div .image-delivery {
+    margin: 0 auto;
+}
+footer section.contact .wrap div.payment .delivery{
+    margin: 0 auto;
 }
 footer section.contact .wrap img#logo{
     max-width: 100px;
