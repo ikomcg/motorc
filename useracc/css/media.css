@@ -44,8 +44,14 @@
     section div.wrap .form-right button{
         padding: 5px 40px;
     }
-}
+    footer section.contact .wrap .payment div.delivery{
+        width: 100%;
+    }
+    footer section.contact .wrap div .image-delivery {
+       width:100%
+    }
 
+}
 @media(max-width:390px){
     footer section.contact .wrap div {
         width: 50%;
