@@ -67,6 +67,14 @@
         width: 33.3333%;
     }
 }
+@media(max-width:500px){
+ footer section.contact .wrap .payment div.delivery{
+        width: 100%;
+    }
+    footer section.contact .wrap div .image-delivery {
+       width:100%
+    }
+}
 @media(max-width:400px){
     section.grid-container .main_Products .products .product_row{
         width: 50%;
