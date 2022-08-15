@@ -62,12 +62,21 @@
         height: 190px;
     }
 }
+
 @media(max-width:540px){
     .main_Products .products .product_row{
         width: 33%;
     }
     .main_Products .products .product_row div.item-row div{
         padding: 5px 0 0 0;
+    }
+}
+@media(max-width:500px){
+ footer section.contact .wrap .payment div.delivery{
+        width: 100%;
+    }
+    footer section.contact .wrap div .image-delivery {
+       width:100%
     }
 }
 @media (max-width: 440px){
