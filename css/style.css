@@ -448,13 +448,26 @@ section.comment_Page div#carouselExampleControls button{
     background-color: #ed092a;
 }
 section.comment_Page button{
-    background-color: #d50826 ;
-    border: 1px solid #d50826;
-    color: #ffffff;
-    padding: 5px 10px ;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent ;
+    border: none;
+    border-bottom: 1px solid #d50826;
+    color: #000000;
+    padding: 0 5px 0 0;
     font-size: 18px;
     font-weight: 400;
     border-radius: 2px;
+}
+section.comment_Page button i{
+    color: #d50826;
+    font-size: 25px;
+}
+section.comment_Page button:hover{
+    background-color: #d508274f;
+    border: none;
 }
  #form-comment{
     display: none;
