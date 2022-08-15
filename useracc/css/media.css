@@ -16,9 +16,10 @@
     padding: 5px 0 5px 20px;
     }
 }
-@media (max-width:760px){
+@media (max-width:790px){
     footer section.contact .wrap div {
-        width: 45%;
+        width: 50%;
+        text-align: center;
     }
     footer section.contact .wrap h5 {
         font-size: 14px;
