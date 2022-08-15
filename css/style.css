@@ -467,7 +467,7 @@ section.comment_Page button i{
 }
 section.comment_Page button:hover{
     background-color: #d508274f;
-    border: none;
+    border-bottom: 1px solid #d508274f;
 }
  #form-comment{
     display: none;
