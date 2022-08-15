@@ -58,6 +58,14 @@
         width: 100%;
     }
 }
+@media(max-width:500px){
+ footer section.contact .wrap .payment div.delivery{
+        width: 100%;
+    }
+    footer section.contact .wrap div .image-delivery {
+       width:100%
+    }
+}
 @media(max-width:420px){
 
     section .left-bar#list-account {
