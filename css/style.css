@@ -581,11 +581,12 @@ footer section.contact .wrap div{
     max-width: 500px;
 
 }
-footer section.contact .wrap div .image-delivery{
-    display: flex;
-    flex-flow: row;
-    width: 100%;
-}
+  footer section.contact .wrap div .image-delivery {
+        margin: 0 auto;
+    }
+    footer section.contact .wrap div.payment .delivery{
+        margin: 0 auto;
+    }
 footer section.contact .wrap img#logo{
     max-width: 100px;
     width: 100%;
