@@ -102,6 +102,14 @@
     }
   
 }
+@media(max-width:500px){
+ footer section.contact .wrap .payment div.delivery{
+        width: 100%;
+    }
+    footer section.contact .wrap div .image-delivery {
+       width:100%
+    }
+}
 @media (max-width: 440px){
     section.brand_Name .navBrand{
         position: relative;
