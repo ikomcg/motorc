@@ -31,7 +31,8 @@
         font-size: 12px;
     }
     footer section.contact .wrap ul{
-        margin-left:10px;
+        width: fit-content;
+        margin: 0 auto;
         text-align:start;
     
     }
