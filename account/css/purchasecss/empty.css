@@ -1,10 +1,19 @@
-div#no-result{
+div.no-result{
     margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+div#pay-result{
     display: none;
+   
+}
+div#receive-result{
+    display: none;
+   
 }
 @media(max-width: 500px)
 {
-    div#no-result img{
+    div.no-result img{
         width: 80%;
     }
 }
