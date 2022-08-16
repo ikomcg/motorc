@@ -93,7 +93,8 @@
                     </div>
                 </div>
 
-                <div id="no-result" class="justify-content-center align-items-center">
+                <div class="no-result" id="pay-result" >
+                   
                     <img src="../image/noproduct/no-result.png" alt="">
                 </div>
             </div>
@@ -138,7 +139,7 @@
                         <hr>
                         <div class="item-user d-flex flex-column">
                             <div class="d-flex p-1">
-                                <img src="../image/products/mirror/1.jpg" alt="">
+                                <img src="../image/products/mirror/1.jpg" class="img-item" alt="">
                                 <div class="d-flex flex-column justify-content-around p-2">
                                     <h4 class="item-name">YAMAHA ORIGINAL X1R SIDE MIRROR (FOR SNIPER RAIDER MT-15 RAIDER XSR)</h4>
                                     <div class="item-info d-flex flex-row justify-content-between">
@@ -150,12 +151,46 @@
                           
                             <div class="button-item d-flex flex-row justify-content-between align-items-center">
                                 <div class="button-purchase w-auto p-0">
-                                    <button>Contact motoRC</button>
+                                    <button>Return</button>
+                                    <button class="order_receive">Order Receive</button>
                                 </div>
-                                <h4>Order Total: <span>$ 12345</span>  </h4>
+                                <h4>Order Total: <span class="price-order">$ 12345</span>  </h4>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="to-pay">
+                    <div class="product-row">
+                        <div class="top-product">
+                            <h3 class="m-0">To Receive</h3>
+                            <span><i class="bi bi-truck" style="font-size: 23px ;"></i> Parcel is out for delivery</span>
+                        </div>
+                        <hr>
+                        <div class="item-user d-flex flex-column">
+                            <div class="d-flex p-1">
+                                <img src="../image/products/rcb/1.jpg" class="img-item" alt="">
+                                <div class="d-flex flex-column justify-content-around p-2">
+                                    <h4 class="item-name">RCB S-SERIES ROTOR DISC (245mm front/ 203mm rear)</h4>
+                                    <div class="item-info d-flex flex-row justify-content-between">
+                                        <h5>Quantity: <span>1</span></h5>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            <div class="button-item d-flex flex-row justify-content-between align-items-center">
+                                <div class="button-purchase w-auto p-0">
+                                    <button>Return</button>
+                                    <button class="order_receive">Order Receive</button>
+                                </div>
+                                <h4>Order Total: <span class="price-order" >$ 12345</span>  </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-result" id="receive-result" >
+                   
+                    <img src="../image/noproduct/no-result.png" alt="">
                 </div>
             </div>
             <div class="complete-page" id="complete-page">
@@ -181,7 +216,6 @@
                             <div class="button-item d-flex flex-row justify-content-between align-items-center">
                                 <div class="button-purchase w-auto p-0">
                                     <button>Buy Again</button>
-                                    <button>Contact motoRC</button>
                                 </div>
                                 <h4>Order Total: <span>$ 12345</span>  </h4>
                             </div>
@@ -226,5 +260,6 @@
     
     <script src="js/purchasemenu.js"></script>
     <script src="js/cancelpruchase.js"></script>
+    <script src="js/order.js"></script>
 </body>
 </html>
