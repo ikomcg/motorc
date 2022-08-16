@@ -51,10 +51,10 @@ for(let i = 0; i < cancel.length; i++){
     cancelpurchase.target.parentElement.parentElement.parentElement.parentElement.remove();
 
         if(cancel.length == 0){
-                document.getElementById('no-result').style.display = 'flex';
+                document.getElementById('pay-result').style.display = 'flex';
         }
         else{
-            document.getElementById('no-result').style.display = 'none';
+            document.getElementById('pay-result').style.display = 'none';
         }
 
     })
