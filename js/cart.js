@@ -67,7 +67,7 @@ document.getElementById('add-to-cart').addEventListener('click',function(){
      
          
          cartdiv.innerHTML = cartrow
-         item_cart_div.insertBefore(cartdiv,item_info[0])   
+         item_cart_div.append(cartdiv)   
          updatePrice();
          show_status();
          increasdecreasequntity(); 
